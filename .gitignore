@@ -1,5 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
+build/
+tools/web_templates/
+開始手機試玩.ps1
+tools/serve_mobile.py
 .nomedia
 
 # Godot-specific ignores

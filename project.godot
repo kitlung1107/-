@@ -11,17 +11,25 @@ config_version=5
 [application]
 
 config/name="中一級石器時代遊戲"
+run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=1152
+window/size/viewport_height=648
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
 [physics]
 
-3d/physics_engine="Jolt Physics"
+3d/physics_engine="GodotPhysics3D"
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+pointing/emulate_touch_from_mouse=false
 
 [rendering]
 
